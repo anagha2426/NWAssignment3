@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="2">
+
+  <testsuite name="LoginTCs"
+    errors="0" failures="1" hostname="" id="" package="LoginTCs" skipped="0"
+    tests="2" time="7.287" timestamp="">
+  
+    <testcase name="verify the login button is avaliable" classname="LoginTCs" time="2.031" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="verify the tab functionality is working" classname="LoginTCs" time="5.256" assertions="2">
+
+      <failure message="Testing if element &lt;input[name=&#39;login&#39;]:focus&gt; is present in 1000 ms. - expected [0;32m&#34;present&#34;[0m but got: [0;31m&#34;not present&#34;[0m">    at Object.verify the tab functionality is working (D:\Anagha\Nightwatch\assignments\Assignment2\tests\LoginTCs.js:41:13)
+    at process._tickCallback (internal/process/next_tick.js:68:7)</failure>
+
+    <failure message="    at Object.verify the tab functionality is working (D:\Anagha\Nightwatch\assignments\Assignment2\tests\LoginTCs.js:41:13)">    at process._tickCallback (internal/process/next_tick.js:68:7)</failure>
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

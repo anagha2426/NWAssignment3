@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="1">
+
+  <testsuite name="Test2"
+    errors="0" failures="1" hostname="" id="" package="Test2" skipped="0"
+    tests="1" time="4.739" timestamp="">
+  
+    <testcase name="Verify that clicking on browser back button after successful login should not take User to log out mode" classname="Test2" time="4.739" assertions="2">
+
+      <failure message="Testing if element &lt;title&gt; contains text: &#34;Login Page&#34; in 1000 ms. - expected [0;32m&#34;Login Page&#34;[0m but got: [0;31m&#34;&#34;[0m">    at Object.Verify that clicking on browser back button after successful login should not take User to log out mode (D:\Anagha\Nightwatch\assignments\Assignment2\tests\Test2.js:73:17)
+    at process._tickCallback (internal/process/next_tick.js:68:7)</failure>
+
+    <failure message="    at Object.Verify that clicking on browser back button after successful login should not take User to log out mode (D:\Anagha\Nightwatch\assignments\Assignment2\tests\Test2.js:73:17)">    at process._tickCallback (internal/process/next_tick.js:68:7)</failure>
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>
